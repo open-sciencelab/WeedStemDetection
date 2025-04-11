@@ -7,3 +7,24 @@ AAAI-2025: Towards Efficient and Intelligent Laser Weeding: Method and Dataset f
 
 <font size=4>[[Paper]](https://arxiv.org/pdf/2502.06255)</font> 
 </div>
+
+## Quickstart
+* Inference:
+```
+python  detect.py --weights epoch_099.pt --source inference_image_dir --name dir_name --project project_name --conf 0.10 
+```
+* Train
+```
+python  train.py --weights epoch_099.pt
+```
+
+## Citation
+```bibtex
+@article{liu2025towards,
+  title={Towards Efficient and Intelligent Laser Weeding: Method and Dataset for Weed Stem Detection},
+  author={Liu, Dingning and Li, Jinzhe and Su, Haoyang and Cui, Bei and Wang, Zhihui and Yuan, Qingbo and Ouyang, Wanli and Dong, Nanqing},
+  journal={arXiv preprint arXiv:2502.06255},
+  year={2025}
+}
+```
+
