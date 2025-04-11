@@ -9,7 +9,6 @@ AAAI-2025: Towards Efficient and Intelligent Laser Weeding: Method and Dataset f
 </div>
 
 ## Quickstart
-* Need to install 
 * Inference:
 ```
 python detect.py --weights best_epoch.pt --source inference_image_dir --name dir_name --project project_name --conf 0.10 
