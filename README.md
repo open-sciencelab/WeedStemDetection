@@ -20,10 +20,13 @@ python train.py --weights train_model.pt
 
 ## Citation
 ```bibtex
-@article{liu2025towards,
+@inproceedings{liu2025towards,
   title={Towards Efficient and Intelligent Laser Weeding: Method and Dataset for Weed Stem Detection},
   author={Liu, Dingning and Li, Jinzhe and Su, Haoyang and Cui, Bei and Wang, Zhihui and Yuan, Qingbo and Ouyang, Wanli and Dong, Nanqing},
-  journal={arXiv preprint arXiv:2502.06255},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={27},
+  pages={28204--28212},
   year={2025}
 }
 ```
