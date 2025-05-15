@@ -18,7 +18,12 @@ python detect.py --weights best_epoch.pt --source inference_image_dir --name dir
 python train.py --weights train_model.pt
 ```
 
+## Data
+
+* Please contact lijinzhe@pjlab.org.cn for data acquisition.
+
 ## Citation
+
 ```bibtex
 @inproceedings{liu2025towards,
   title={Towards Efficient and Intelligent Laser Weeding: Method and Dataset for Weed Stem Detection},
